@@ -1,0 +1,327 @@
+:root {
+  --gray-btn-bg: rgb(200, 200, 200);
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  min-height: 650px;
+  overflow: hidden;
+  font-family: "Mochiy Pop One", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+button {
+  background-color: var(--gray-btn-bg);
+  border-style: solid;
+  border-radius: 0.5rem;
+  border-width: 0.2rem;
+  border-color: black;
+  user-select: none;
+  cursor: pointer;
+}
+
+input {
+  border-style: solid;
+  border-radius: 0.5rem;
+  border-width: 0.2rem;
+  border-color: black;
+  text-align: center;
+}
+
+textarea {
+  border-style: solid;
+  border-radius: 0.5rem;
+  border-width: 0.2rem;
+  border-color: black;
+  text-align: center;
+}
+
+.container {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-tap-highlight-color: rgba(200, 200, 200, 0.5);
+}
+
+.start-page {
+  height: 95%;
+  display: grid;
+  align-items: flex-start;
+}
+
+.title {
+  font-size: 3rem;
+  user-select: none;
+  cursor: pointer;
+}
+
+.start-btn {
+  font-size: 2rem;
+  font-weight: 500;
+  border-radius: 0.7rem;
+  cursor: pointer;
+}
+
+.leg-count-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.leg-input {
+  margin: 0.5rem;
+  font-size: 2.5rem;
+  text-align: center;
+  flex-wrap: nowrap;
+  border-style: solid;
+  border-radius: 0.5rem;
+  border-width: 0.2rem;
+  border-color: black;
+}
+
+.change-btn {
+  height: 5rem;
+  cursor: pointer;
+}
+
+.decrease-btn {
+  transform: rotate(180deg);
+}
+
+/* --------------------------------------------------------------------------- */
+
+.menu-page {
+  width: 95%;
+  height: 95%;
+}
+
+.home-container {
+  cursor: pointer;
+}
+
+.home-btn {
+  height: 3rem;
+  margin: 0;
+}
+
+.home-title {
+  margin: 0;
+  user-select: none;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  height: 70%;
+}
+
+.leg-show-container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.leg-show {
+  display: block;
+  max-width: 100%;
+  overflow-x: scroll;
+}
+
+.leg-show::-webkit-scrollbar {
+  height: 0.5rem;
+}
+
+.leg-show::-webkit-scrollbar-thumb {
+  background-color: rgb(204, 204, 204);
+}
+
+.top-input {
+  font-size: 1rem;
+  width: 6ch;
+}
+
+textarea::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background-color: rgb(204, 204, 204);
+}
+
+.connect-line {
+  width: 0.4rem;
+  height: 15rem;
+  background-color: black;
+  margin-left: 50%;
+  transform: translateX(-0.2rem);
+}
+
+.hide-element {
+  display: none;
+}
+
+.entry-table-container {
+  text-align: center;
+}
+
+.entry-table {
+  display: block;
+  max-width: 100%;
+}
+
+.entry-table-textarea {
+  width: 5ch;
+  height: 250px;
+  resize: none;
+  font-size: 1rem;
+}
+
+.start-game-btn-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.start-game-btn {
+  width: 200px;
+  font-size: 2rem;
+  font-weight: 500;
+  border-radius: 0.7rem;
+  cursor: pointer;
+}
+
+.insert-btn {
+  font-size: 1rem;
+  height: 2rem;
+}
+
+.shuffle-btn {
+  font-size: 1rem;
+  height: 2rem;
+}
+
+/* -------------------------------------------------------------------------- */
+.run-page {
+  height: 95%;
+  width: 95%;
+}
+
+.ghost-leg {
+  margin: 0;
+  width: 95%;
+  height: 70%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ghost-leg-container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: scroll;
+}
+
+.ghost-leg-container::-webkit-scrollbar {
+  height: 0.5rem;
+}
+
+.ghost-leg-container::-webkit-scrollbar-thumb {
+  background-color: rgb(204, 204, 204);
+}
+
+.btns {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btns button {
+  font-size: 2rem;
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem;
+  width: 15rem;
+  height: 3rem;
+}
+
+.leg-text-btn {
+  color: black;
+  font-size: 20px;
+  overflow: visible;
+  user-select: none;
+  cursor: pointer;
+  font-weight: 200;
+}
+
+.leg-text-btn:hover,
+.leg-text-btn:active {
+  font-size: 25px;
+}
+/* ---------------------------------------------------------- */
+
+.result-page {
+  height: 95%;
+  width: 95%;
+}
+
+.result-page-container {
+  width: 100%;
+  height: 100%;
+}
+
+.results {
+  height: 75%;
+  overflow-y: scroll;
+  margin: 20px;
+}
+
+.results::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+.results::-webkit-scrollbar-thumb {
+  background-color: rgb(204, 204, 204);
+}
+
+.result-table-grid {
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: repeat(auto-fill, 210px);
+}
+
+.result-text {
+  font-size: 1.4rem;
+}
+
+.restart {
+  padding-bottom: 5px;
+}
