@@ -1,1 +1,1 @@
-ssabba.github.com/ghostleg
+https://ssabba.github.io/ghostleg
